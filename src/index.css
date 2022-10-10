@@ -1,13 +1,173 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+p {
+  margin-bottom: 0;
+}
+.w-5 {
+  width: 20px;
+}
+.w-30 {
+  width: 30px;
+}
+.w-2 {
+  margin-left: 2px;
+  width: 14px;
+}
+.h-30 {
+  height: 30px;
+}
+.h-300 {
+  height: 180px;
+  margin-top: 3rem;
+}
+.bg-green {
+  color: #0ebe6a;
+}
+.border-left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.font-bold {
+  font-weight: 700;
+  font-size: 15px;
+}
+.font-semibold {
+  font-size: 13px;
+  font-weight: 500;
+}
+.bg-d {
+  background-color: whitesmoke;
+}
+.h-3001 {
+  height: 140px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mt-special {
+  margin-top: 10rem;
+  padding: 4rem;
+}
+.mr-3 {
+  margin-right: 7px;
+}
+.w-301 {
+  width: 15px;
+}
+.w-star {
+  width: 12px;
+}
+.h-star {
+  height: 12px;
+}
+.h-301 {
+  height: 15px;
+}
+.font-light {
+  opacity: 0.9;
+  font-size: 11px;
+}
+.text-yellow {
+  color: #ffcb05;
+}
+.b-2 {
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.w-40 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 230px;
+}
+.small-bold {
+  font-weight: 600;
+}
+.h-40 {
+  height: 250px;
+}
+.text-100 {
+  font-size: 13px;
+}
+.w-401 {
+  width: 300px;
+}
+.w-501 {
+  width: 200px;
+}
+.br-700 {
+  color: #00274c;
+  font-size: 20px;
+}
+.special-margin {
+  width: 100%;
+  margin-top: -10px;
+  margin-left: auto;
+}
+.title {
+  color: #00274c;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.new {
+  background-color: #0ebe6a;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.icon {
+  border-radius: 2px;
+  width: 26px;
+  background-color: white;
+  padding: 2px;
+}
+.h-40 {
+  height: 285px;
+}
+.t-400 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.t-300 {
+  font-weight: 600;
+  font-size: 35px;
+}
+.t-3001 {
+  font-weight: 700;
+  font-size: 35px;
+}
+.t-200 {
+  font-weight: 600;
+  font-size: 13px;
+}
+.t-1000 {
+  font-style: italic;
+  font-weight: 700;
+}
+.style-padding {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.b-whitesmoke {
+  background-color: whitesmoke;
+}
+.bg-red {
+  color: #fd4e5d;
+}
+.bg-light-red {
+  background: #ffe8ea;
+}
+.b-footer {
+  width: fit-content;
+  border: 1px solid black;
+  padding: 4px;
+  margin-top: 1rem;
+  font-size: 13px;
+  border-radius: 2px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.t-5 {
+  font-size: 12px;
 }
